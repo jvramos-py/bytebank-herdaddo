@@ -3,10 +3,8 @@ public class Gerente extends Funcionario {
     private int senha;
 
     public double getBonificacao(){
-        return super.salario;
+        return super.getBonificacao() + super.getSalario();
     }
-
-        
 
     public void setSenha(int senha) {
         this.senha = senha;
