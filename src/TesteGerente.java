@@ -4,13 +4,13 @@ public class TesteGerente {
         g1.setNome("Eduardo");
         g1.setCpf("qualquer um");
         g1.setSalario(5000);
-        g1.setSenha(2222);
+        //g1.setSenha(2222);
 
         System.out.println(g1.getNome());
 
 
-        boolean autenticou = g1.autentica(2222);
-        System.out.println(autenticou);
+        //boolean autenticou = g1.autentica(2222);
+        //System.out.println(autenticou);
 
         System.out.println(g1.getBonificacao()); 
 
